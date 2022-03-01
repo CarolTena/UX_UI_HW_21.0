@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link href="CSS/index.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/projects.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menuList">
+          <li class="logo">
+            <a href="index.html">
+              <img src="Images/220123 Logo_Carol Tena_Final-05.png" />
+            </a>
+          </li>
+          <li>
+            <a class="menuListLink" id="projects" href="index.html#myWork"
+              >Projects
+            </a>
+          </li>
+          <li>
+            <a class="menuListLink" id="about" href="index.html#aboutMe"
+              >About
+            </a>
+          </li>
+          <li>
+            <a class="menuListLink" id="skills" href="index.html#mySkills"
+              >Skills
+            </a>
+          </li>
+          <li>
+            <a class="menuListLink" id="contact" href="#">Contact </a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="heroInfo">
+        <div class="heroContainerText">
+          <div class="heroText heroTextColor">
+            <h1>YMCA Saskatoon</h1>
+            <h2>RWD Website Redesign</h2>
+          </div>
+        </div>
+        <div class="heroContainerImage">
+          <img src="Images/ImageHeader_Project.png" />
+        </div>
+        <div id="heroInfo"></div>
+      </section>
+    </header>
+
+    <div class="aboutTheProject paddingMobile">
+      <div class="row pageTopics">
+        <div class="col col-lg-1 col-sm-3 topicCircleImage">
+          <img src="Images/about_icon.png" />
+        </div>
+        <div class="col col-lg-11 col-sm-9 pageTopics">
+          <h2 class="pageTopicsTitle">About the Project</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-lg-12">
+          <p>
+            There are many nonprofit and charitable organizations for people to
+            choose from when looking to donate. The ability for users to make a
+            donation quickly and easily is an important feature to consider for
+            organizations that run off of donations.
+          </p>
+
+          <p>
+            The YMCA is a youth social organization that works to promote equity
+            and boost the community's well-being.
+          </p>
+
+          <p>
+            Throughout our research into the YMCA Saskatoon website, we
+            discovered problems with the website stemmed from users having an
+            overall poor experience. Users expressed navigating the website was
+            not easy, they felt unsure and confused about the YMCA's purpose and
+            were not motivated to donate.
+          </p>
+
+          <p>
+            Our solution was to create a prototype with clean design, intuitive
+            navigation and purposeful information. Through implementing these
+            changes, our research shows users understood the YMCA purpose, they
+            are more confident navigating the website and their experiences are
+            overall more positive.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="myResponsabilities paddingMobile">
+      <div class="row pageTopics">
+        <div class="col col-lg-1 col-sm-3 topicCircleImage">
+          <img src="Images/team_icon.png" />
+        </div>
+        <div class="col col-lg-11 col-sm-9 pageTopics">
+          <h2 class="pageTopicsTitle">My Responsibilities & Team</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <p>
+            The team for this project consisted of 3 members: Ana Gentile (UX/UI
+            Designer), Lauren Cunningham (UX/UI Designer) and me.
+          </p>
+          <p>My responsibilities were:</p>
+          <ul>
+            <li>
+              Developing and conducting User Research and analyzing its results
+            </li>
+            <li>
+              Delivering solutions through UX Design methods and techniques
+              (Interaction Design, Wireframing, Prototyping, User Testing)
+            </li>
+            <li>Creating and applying UI branding style guide</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="process paddingMobile">
+      <div class="row pageTopics">
+        <div class="col col-lg-1 col-sm-3 topicCircleImage">
+          <img src="Images/process_icon.png" />
+        </div>
+        <div class="col col-lg-11 col-sm-9 pageTopics">
+          <h2 class="pageTopicsTitle">The UX/UI Process</h2>
+        </div>
+      </div>
+
+      <ul class="nav nav-pills mb-3 col-12" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            id="pills-home-tab"
+            data-toggle="pill"
+            href="#pills-phase-1"
+            role="tab"
+            aria-controls="pills-phase-1"
+            aria-selected="true"
+            >1</a
+          >
+          <p class="phaseTitle">
+            Phase 1:<br />
+            User Research
+          </p>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="pills-profile-tab"
+            data-toggle="pill"
+            href="#pills-phase-2"
+            role="tab"
+            aria-controls="pills-phase-2"
+            aria-selected="false"
+            >2</a
+          >
+          <p class="phaseTitle">
+            Phase 2:<br />
+            Definition & Synthesis
+          </p>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="pills-contact-tab"
+            data-toggle="pill"
+            href="#pills-phase-3"
+            role="tab"
+            aria-controls="pills-phase-3"
+            aria-selected="false"
+            >3</a
+          >
+          <p class="phaseTitle">
+            Phase 3:<br />
+            Ideation
+          </p>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="pills-contact-tab"
+            data-toggle="pill"
+            href="#pills-phase-4"
+            role="tab"
+            aria-controls="pills-phase-4"
+            aria-selected="false"
+            >4</a
+          >
+          <p class="phaseTitle">
+            Phase 4:<br />
+            Prototyping (low-hi)
+          </p>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="pills-contact-tab"
+            data-toggle="pill"
+            href="#pills-phase-5"
+            role="tab"
+            aria-controls="pills-phase-5"
+            aria-selected="false"
+            >5</a
+          >
+          <p class="phaseTitle">
+            Phase 5:<br />
+            User Testing + Outcomes
+          </p>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="pills-contact-tab"
+            data-toggle="pill"
+            href="#pills-phase-6"
+            role="tab"
+            aria-controls="pills-phase-6"
+            aria-selected="false"
+            >6</a
+          >
+          <p class="phaseTitle">
+            Phase 6:<br />Conclusion + Future Opportunities
+          </p>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="pills-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="pills-phase-1"
+          role="tabpanel"
+          aria-labelledby="pills-home-tab"
+        >
+          <div class="row">
+            <div class="col-12">
+              <p>
+                We conducted <b>qualitative and quantitative interviews</b> to
+                gain insight into what motivates users to donate.
+              </p>
+
+              <p>
+                Our interviews uncovered three themes: <br /><b
+                  >1. When looking to donate, users want to feel they can trust
+                  the organization <br />2. Users want to know where their money
+                  is being allocated <br />3. Users dd not understand the YMCA's
+                  purpose and lacked the motivation to donate due to their poor
+                  website experience</b
+                >
+              </p>
+
+              <p>
+                Some of our user quotes highlight how users don't trust the
+                website or take it seriously, they don't understand the YMCA's
+                purpose, and how the overall design of the website is
+                challenging to look at.
+              </p>
+            </div>
+          </div>
+
+          <div class="row text-center quotes">
+            <div class="col col-lg-2 col-sm-12 quotesImg">
+              <img
+                src="Images/quote1.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col col-lg-4 col-sm-12 quotesText">
+              “When I think about the YMCA I think of fitness and recreation”
+            </div>
+            <div class="col col-lg-2 col-sm-12 quotesImg">
+              <img
+                src="Images/quote3.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col col-lg-4 col-sm-12 quotesText">
+              “My head hurts just looking at the whole thing”
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col col-lg-2 col-sm-12 quotesImg">
+              <img
+                src="Images/quote2.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col col-lg-4 col-sm-12 quotesText">
+              “The way the website is built, it's hard for me to take it
+              seriously to make a donation”
+            </div>
+            <div class="col col-lg-2 col-sm-12 quotesImg">
+              <img
+                src="Images/quote4.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col col-lg-4 col-sm-12 quotesText">
+              “I didn't know the YMCA needed donations”
+            </div>
+          </div>
+          <div class="row quotes">
+            <div class="col-12">
+              <p>
+                This graph shows <b>3 main paint points</b> related to donating:
+                <br />1. Users don't know where their money is going <br />2.
+                They don't know enough about the organization <br />3. Can't
+                choose exactly where/what their donation goes towards
+              </p>
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-12">
+              <img
+                src="Images/YMCA - Saskatoon User Survey - Formulários Google.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col-12 imgDescription">User Research Interview</div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              From our <b>Affinity Diagram</b>, we looked closely at our users'
+              navigation experience. We noticed users felt confused,
+              overwhelmed, unsure and frustrated when trying to understand and
+              navigate the current YMCA website.
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-12">
+              <img
+                src="Images/Affinity Diagram.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col-12 imgDescription">Affinity Diagram</div>
+            <div class="col-12">
+              <img
+                src="Images/Proto-Persona.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col-12 imgDescription">Proto-Persona</div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="pills-phase-2"
+          role="tabpanel"
+          aria-labelledby="pills-profile-tab"
+        >
+          <div class="row">
+            <div class="col-12">
+              <p>
+                After defining our user persona and analyzing the Affinity
+                Diagram, we determined the <b>User Insight</b>.
+              </p>
+              <p class="textHighlight">
+                Potential donors need organized and concise information before
+                making a donation and committing to volunteer activities,
+                because the credibility of an organization and transparency is
+                important to them.
+              </p>
+              <p>
+                The YMCA website was designed to promote its services and
+                encourage people to donate to their causes. However, we observed
+                how challenging and overwhelming it is for people to navigate
+                the YMCA Saskatoon website and understand their primary purpose.
+              </p>
+              <p>So, we defined the <b>Problem Statement</b> as:</p>
+              <p class="textHighlight">
+                How might we improve the YMCA Saskatoon website so that
+                potential donors understand the YMCA Mission through a better
+                navigation experience and feel motivated to donate so that the
+                organization is successful based on the number of website visits
+                and donations made to the organization?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="pills-phase-3"
+          role="tabpanel"
+          aria-labelledby="pills-contact-tab"
+        >
+          <div class="row">
+            <div class="col-12">
+              <p>
+                We brainstormed ideas to create design solutions using the
+                <b>I Like, I Wish, What If Method</b> starting the
+                <b>Ideate Phase</b>. We identified the most critical problems to
+                be solved based on what would bring the most value to the user
+                and organization.
+              </p>
+              <p>
+                Mapped on a <b>Feature Prioritization Matrix</b>, here are the
+                High Impact/Low Complexity topics that we decided to move
+                forward:
+              </p>
+              <div class="textHighlight">
+                Prioritization Matrix (Hight Impact / Low Complexity)
+                <ul>
+                  <li>The donation could be made in a few clicks</li>
+                  <li>Good and clean design</li>
+                  <li>They have multiple donation options</li>
+                  <li>More meaningful images rather than too much text</li>
+                  <li>Content is more minimal, concise and served a purpose</li>
+                  <li>Information was better summarized</li>
+                </ul>
+              </div>
+              <p>
+                We've also created a <b>Value Proposition</b> to make sure the
+                new website would meet the needs of our users. In our Value
+                Proposition, we highlight:
+              </p>
+              <div class="textHighlight">
+                <ul>
+                  <li>
+                    The redesign of the YMCA website to help users understand
+                    how impactful and essential their support is
+                  </li>
+                  <li>Our pride in being a credible community</li>
+                  <li>They have multiple donation options</li>
+                  <li>
+                    Our work to strengthen communities and improve the health
+                    and well-being of people of all ages
+                  </li>
+                </ul>
+              </div>
+              <p>
+                After additional inputs and analysis of the
+                <b>User Scenario</b>, <b>Storyboard</b> and
+                <b>User Journey Map</b>, we were ready to develop our user flow
+                and prototypes.
+              </p>
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-12">
+              <img
+                src="Images/YMCA-User Scenario.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col-12 imgDescription">User Scenario</div>
+            <div class="col-12">
+              <img
+                src="Images/YMCA Storyboard.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col-12 imgDescription">Storyboard</div>
+            <div class="col-12">
+              <img
+                src="Images/01-User Journey.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col-12 imgDescription">User Journey Map</div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="pills-phase-4"
+          role="tabpanel"
+          aria-labelledby="pills-contact-tab"
+        >
+          <div class="row">
+            <div class="col-12">
+              Our team designed <b>responsive web design wireframes</b>,
+              prioritizing: Registration, Donation, Purpose and Schedule
+              sections. We considered the importance of concise and meaningful
+              information and developed a simple flow that was more intuitive
+              for our users.
+            </div>
+          </div>
+
+          <div class="row text-center mockUpsPadding">
+            <div class="col col-lg-4 col-sm-12">
+              <img
+                src="Images/HomePage_prototype.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col col-lg-4 col-sm-12">
+              <img
+                src="Images/OurImpact_prototype.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col col-lg-4 col-sm-12">
+              <img
+                src="Images/Schedules_prototype.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col-12 imgDescription">
+              Low Fidelity Prototype | Mobile
+            </div>
+          </div>
+
+          <div class="row text-center mockUpsPadding">
+            <div class="col col-lg-6 col-sm-12">
+              <img
+                src="Images/HomePage_prototype_desktop.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col col-lg-6 col-sm-12">
+              <img
+                src="Images/Schedules_prototype_desktop.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col-12 imgDescription">
+              Low Fidelity Prototype | Desktop
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              We created a clickable <b>Low Fidelity prototype</b> and conducted
+              a <b>Usability Testing Plan</b>. The key insights used for the
+              improvement of the high fidelity prototype were:
+            </div>
+            <div class="col-12 textHighlight">
+              <ul>
+                <li>
+                  Purpose and Donation Flow was clear and intuitive to the user
+                  on prototypes
+                </li>
+                <li>
+                  Schedules needed to be adjusted to make the navigation easier
+                </li>
+                <li>
+                  Registration forms needed some minor adjustments in terms of
+                  required fields, and labelling
+                </li>
+                <li>
+                  Navigation was easy to understand and intuitive for users on
+                  mobile and desktop prototypes
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="pills-phase-5"
+          role="tabpanel"
+          aria-labelledby="pills-contact-tab"
+        >
+          <div class="row">
+            <div class="col-12">
+              With all the test observations noted, we developed our
+              <b>High Fidelity Prototype</b>, adjusting some forms, labelling,
+              and our schedule.
+            </div>
+
+            <div class="">
+              <div class="row text-center mockUpsPadding">
+                <div class="col col-lg-4 col-sm-12">
+                  <img
+                    src="Images/HomePage_prototype_high.png"
+                    class="img-fluid"
+                    alt="Responsive image"
+                  />
+                </div>
+                <div class="col col-lg-4 col-sm-12">
+                  <img
+                    src="Images/OurImpact_prototype_high.png"
+                    class="img-fluid"
+                    alt="Responsive image"
+                  />
+                </div>
+                <div class="col col-lg-4 col-sm-12">
+                  <img
+                    src="Images/Schedules_prototype_high.png"
+                    class="img-fluid"
+                    alt="Responsive image"
+                  />
+                </div>
+                <div class="col-12 imgDescription">
+                  High Fidelity Prototype | Mobile
+                </div>
+              </div>
+
+              <div class="row text-center mockUpsPadding">
+                <div class="col col-lg-6 col-sm-12">
+                  <img
+                    src="Images/HomePage_prototype_desktop_high.png"
+                    class="img-fluid"
+                    alt="Responsive image"
+                  />
+                </div>
+                <div class="col col-lg-6 col-sm-12">
+                  <img
+                    src="Images/Schedules_prototype_desktop_high.png"
+                    class="img-fluid"
+                    alt="Responsive image"
+                  />
+                </div>
+                <div class="col-12 imgDescription">
+                  High Fidelity Prototype | Desktop
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  We conducted a <b>new usability test</b> with 5 participants.
+                  In this time, we asked our users to do their tasks, in the
+                  Original website, after in our prototypes (Desktop and
+                  Mobile), providing again rating from 1 to 5.
+                  <p>
+                    Also, an A/B Test to choose from 2 schedule layouts. Here
+                    you can see a quick summary of the test results and KPIs.
+                    Showcasing a considerable improvement from the original
+                    website (in red) compared to the new solution.
+                  </p>
+                </div>
+              </div>
+
+              <div class="row text-center">
+                <div class="col-12">
+                  <img
+                    src="Images/KPI.jpg"
+                    class="img-fluid"
+                    alt="Responsive image"
+                  />
+                </div>
+                <div class="col-12 imgDescription">KPI</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="pills-phase-6"
+          role="tabpanel"
+          aria-labelledby="pills-contact-tab"
+        >
+          <div class="row">
+            <div class="col-12">
+              Our <b>future plans</b> for this case study include:
+              <p>
+                <b
+                  ><ul>
+                    <li>
+                      Client feedback to improve and iterate on the solution
+                      presented
+                    </li>
+                    <li>
+                      Further user testing to validate or challenge our
+                      solutions
+                    </li>
+                    <li>Redesign remaining YMCA Saskatoon webpages</li>
+                    <li>
+                      Present prototype to YMCA Saskatoon and their stakeholders
+                    </li>
+                  </ul>
+                </b>
+              </p>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-12">
+              <img
+                src="Images/HighFidelity_MockUps.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+              <div class="col-12 imgDescription">High Fidelity Mock Ups</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="caseStudies col-12">
+      <div class="row">
+        <div class="col-12 titleYellowBox text-center">
+          Explore more Case Studies
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="card col col-lg-6 col-sm-12">
+          <img
+            class="card-img-top"
+            src="Images/Image Project CBC.png"
+            alt="Card image cap"
+            class="img-fluid"
+            alt="Responsive image"
+          />
+          <div class="card-body text-center">
+            <h3 class="card-title">CBC/Radio-Canada | RWD Website Redesign</h3>
+            <p class="card-text">
+              CBC/Radio-Canada is a Canadian public broadcaster for radio and
+              television. The project's goal was to redesign an RWD website
+              focusing on information architecture improvements and design.
+            </p>
+            <a href="#" class="btn btn-primary buttonViewMore">View More</a>
+          </div>
+        </div>
+        <div class="card col col-lg-6 col-sm-12">
+          <img
+            class="card-img-top"
+            src="Images/Image Project GOSmart.png"
+            alt="Card image cap"
+            class="img-fluid"
+            alt="Responsive image"
+          />
+          <div class="card-body text-center">
+            <h3 class="card-title">GOSMART Travel App | UX Design Project</h3>
+            <p class="card-text">
+              GOSMART is a new travel startup that wanted to launch a modern-day
+              mobile app. The mission of the GOSMART app was to help people plan
+              their next trip, post-pandemic.
+            </p>
+            <a href="#" class="btn btn-primary buttonViewMore">View More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="blackFooter">
+        <h3>Let's Connect!</h3>
+        <ul class="icons">
+          <li>
+            <div class="contactCircle">
+              <img src="Images/Icon_Contact Phone.png" alt="Phone" />
+            </div>
+            <a href="#">
+              <p>
+                Phone <br /><span style="color: white">(604) 626 8560</span>
+              </p>
+            </a>
+          </li>
+          <li>
+            <div class="contactCircle">
+              <img src="Images/Icon_Contact Email.png" alt="Email" />
+            </div>
+            <a href="#">
+              <p>
+                E-mail <br /><span style="color: white"
+                  >carolburillo@gmail.com</span
+                >
+              </p>
+            </a>
+          </li>
+          <li>
+            <div class="contactCircle">
+              <img src="Images/Icon_Contact LinkedIn.png" alt="LinkedIn" />
+            </div>
+            <a href="#">
+              <p>LinkedIn <br /><span style="color: white">/CarolTena</span></p>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="purpleFooter">
+        <ul class="footerList">
+          <li>
+            <a
+              class="menuListLink"
+              id="projectsBottom"
+              href="index.html#myWork"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a class="menuListLink" id="aboutBottom" href="index.html#aboutMe"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              class="menuListLink"
+              id="skillsBottom"
+              href="index.html#mySkills"
+              >Skills</a
+            >
+          </li>
+        </ul>
+        <div class="copyright">Copyright 2020</div>
+      </div>
+    </footer>
+
+    <a
+      href="#"
+      id="toTopBtn"
+      class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out"
+      data-abc="true"
+    ></a>
+    <script src="JS/index.js" type="text/javascript"></script>
+    <script src="JS/projects.js" type="text/javascript"></script>
+  </body>
+</html>

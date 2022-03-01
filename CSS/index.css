@@ -1,0 +1,548 @@
+body {
+  font-family: Roboto Regular, Lato, sans-serif;
+  max-width: 1440px;
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0 45px;
+}
+
+header {
+  height: 100%;
+  background-color: rgb(134, 63, 161);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.heroContainerText {
+  width: 50%;
+}
+
+.buttonContainer {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.heroContainerImage {
+  width: 50%;
+  margin-top: -120px;
+  padding-right: 45px;
+}
+
+.heroContainerImage img {
+  width: 100%;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.menuList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.menuList li {
+  padding-right: 45px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.menuList a {
+  color: white;
+  text-decoration: none;
+}
+
+.downloadBtn {
+  border: 0;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 250px;
+}
+
+.downloadBtn {
+  background-color: rgb(245, 185, 56);
+  border-radius: 4px;
+}
+
+.heroInfo {
+  padding-left: 45px;
+  display: flex;
+  flex-direction: row;
+}
+
+.heroText h1 {
+  font-size: 56px;
+  color: white;
+  font-weight: bold;
+  margin: 50px 0;
+}
+
+.heroText h2 {
+  font-size: 36px;
+  color: white;
+  font-weight: lighter;
+  margin: 40px 0;
+}
+
+.scroll {
+  color: #fff;
+  margin-top: 100px;
+}
+
+#toTopBtn {
+  position: fixed;
+  bottom: 70px;
+  left: 93%;
+  z-index: 98;
+  padding: 21px;
+  background-color: rgb(204, 116, 237);
+  border-radius: 50%;
+}
+
+.js .cd-top--fade-out {
+  opacity: 0.5;
+}
+
+.js .cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.js .cd-top {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s, background-color 0.3s;
+}
+
+.cd-top {
+  position: fixed;
+  bottom: 20px;
+  bottom: var(--cd-back-to-top-margin);
+  right: 20px;
+  right: var(--cd-back-to-top-margin);
+  display: inline-block;
+  height: 40px;
+  height: var(--cd-back-to-top-size);
+  width: 40px;
+  width: var(--cd-back-to-top-size);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05) !important;
+  background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg)
+    no-repeat center 50%;
+  background-color: hsla(5, 76%, 62%, 0.8);
+  background-color: hsla(
+    var(--cd-color-3-h),
+    var(--cd-color-3-s),
+    var(--cd-color-3-l),
+    0.8
+  );
+}
+
+.height {
+  height: 3000px;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(134, 63, 161);
+}
+
+.flexContainerAboutMe {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+}
+.aboutMeImage {
+  width: 100%;
+  margin: 45px;
+  text-align: center;
+}
+
+.aboutMeImage img {
+  width: 75%;
+}
+
+.aboutMeText {
+  width: 50%;
+  margin: 55px;
+}
+.aboutMeText h1 {
+  color: rgb(245, 185, 56);
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.aboutMeText h2 {
+  color: rgb(245, 185, 56);
+  font-size: 34px;
+}
+
+.aboutMeText h3 {
+  color: white;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.mySkills {
+  background-color: white;
+  padding: 20px 55px;
+}
+
+.mySkills h1 {
+  color: rgb(134, 63, 161);
+  font-size: 40px;
+  padding-top: 15px;
+  margin-top: 0;
+  text-align: center;
+}
+.flexContainerSkills {
+  display: flex;
+  flex-direction: row;
+}
+
+.project img {
+  width: 125px;
+  height: 125px;
+}
+
+.flexContainer h3 {
+  color: rgb(134, 63, 161);
+  text-align: center;
+}
+
+.skillsList {
+  padding: 0 25px;
+  width: 25%;
+  text-align: center;
+}
+
+.skillsList p {
+  font-size: 20px;
+}
+
+.skillsList h3 {
+  color: rgb(134, 63, 161);
+  font-size: 22px;
+  height: 15%;
+}
+
+.myWork {
+  background-color: rgb(245, 185, 56);
+  padding: 20px 55px;
+}
+
+.myWork h1 {
+  color: rgb(134, 63, 161);
+  font-size: 40px;
+  margin-top: 0;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.containerGrid {
+  display: grid;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: 50% 50%;
+}
+
+.MyWorkGrid {
+  display: grid;
+  align-content: center;
+  padding-left: 55px;
+}
+
+.MyWorkGrid h3 {
+  color: rgb(134, 63, 161);
+  font-size: 36px;
+}
+
+.MyWorkGrid p {
+  font-size: 22px;
+  color: black;
+  margin-bottom: 60px;
+}
+
+.myWorkImages {
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.project1Btn {
+  border: 0;
+  color: white;
+  font-weight: bolder;
+  padding: 15px 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 175px;
+  background-color: rgb(134, 63, 161);
+  border-radius: 4px;
+}
+
+.projectBtn {
+  text-align: center;
+}
+
+.myWorkImages img {
+  width: 60%;
+}
+
+footer {
+  display: flex;
+  background: white;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blackFooter {
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+.blackFooter h3 {
+  color: rgb(245, 185, 56);
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding-top: 35px;
+  margin-top: 0;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+}
+
+.icons li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons a {
+  color: rgb(245, 185, 56);
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+}
+
+.contactCircle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* transform: rotate(0); */
+}
+
+.contactCircle img {
+  width: 100px;
+  height: 100px;
+  height: auto;
+}
+
+content h1 {
+  color: black;
+  font-size: 4px;
+  height: 600px;
+}
+
+.purpleFooter {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(134, 63, 161);
+}
+
+.footerList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 16px;
+  padding: 0 50px;
+}
+
+.footerList li {
+  padding-right: 25px;
+}
+
+.footerList a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.copyright {
+  padding-right: 30px;
+}
+
+.hoverMenuList {
+  color: yellow !important;
+}
+
+.hoverProject1Btn {
+  color: white;
+  box-shadow: 0px 0px 0px 2px white;
+}
+
+.hoverDownloadBtn {
+  font-weight: bolder;
+  box-shadow: 0px 0px 0px 2px white;
+}
+
+.hoverSkillList {
+  transform: rotate(-20deg);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    min-width: 500px;
+    padding: 0;
+  }
+
+  header {
+    padding-top: 10px;
+  }
+
+  #toTopBtn {
+    left: 92%;
+  }
+
+  .menuList {
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  .menuList li {
+    padding-right: 20px;
+  }
+
+  .aboutMe {
+    padding: 0 55px;
+  }
+  .heroContainerImage {
+    margin: 0;
+    padding: 0;
+  }
+
+  .heroInfo {
+    flex-direction: column-reverse;
+    padding: 0 55px;
+    margin: 0 auto;
+  }
+
+  .heroText h1 {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .heroText h2 {
+    text-align: center;
+  }
+
+  .aboutMeText h3 {
+    padding-bottom: 5%;
+  }
+
+  .buttonContainer {
+    margin: 10% 0;
+  }
+
+  .heroContainerImage,
+  .heroContainerText {
+    width: 100%;
+  }
+  .flexContainerAboutMe {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 45px;
+  }
+
+  .aboutMeImage {
+    width: 120%;
+    padding: 0;
+    margin: 40px 0 0 0;
+  }
+
+  .aboutMeText {
+    width: 90%;
+    margin: 0;
+  }
+
+  .aboutMe {
+    flex-direction: column-reverse;
+  }
+
+  .aboutMe h2 {
+    text-align: center;
+  }
+
+  .aboutMe h3 {
+    text-align: center;
+  }
+
+  .flexContainerSkills {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skillsList {
+    width: 100%;
+    padding-bottom: 60px;
+  }
+
+  .containerGrid {
+    grid-template-rows: 16% 16% 16% 16% 16% 16%;
+    grid-template-columns: 100%;
+    text-align: center;
+    row-gap: 15px;
+  }
+
+  .icons {
+    flex-direction: column;
+  }
+
+  .myWork {
+    padding: 20px 55px 0px 55px;
+  }
+
+  .MyWorkGrid h3 {
+    margin: 0;
+  }
+
+  .MyWorkGrid {
+    padding: 0px;
+  }
+
+  .MyWorkGrid p {
+    margin: 30px 0;
+  }
+
+  .myWorkImages {
+    margin: 0px;
+  }
+
+  .project1Btn {
+    margin-bottom: 80px;
+  }
+}

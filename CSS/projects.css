@@ -1,0 +1,195 @@
+body {
+  padding: 0;
+}
+
+.pageTopics {
+  margin: 40px 0;
+}
+
+.quotes {
+  margin: 40px 0;
+}
+.quotesText {
+  padding: 0;
+  margin: 50px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.quotesImg {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.pageTopicsTitle {
+  padding: 0;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(134, 63, 161);
+}
+
+.titleYellowBox {
+  padding: 0;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(134, 63, 161);
+  margin: 20px 0;
+}
+
+.imgDescription {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 20px 0 60px 0;
+}
+.heroContainerImage {
+  margin-top: -95px;
+  width: 50%;
+  padding-right: 45px;
+}
+
+.heroTextColor h1 {
+  color: rgb(245, 185, 56);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link,
+.nav-pills .nav-link {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.nav-pills .nav-link.active {
+  background-color: rgb(134, 63, 161);
+}
+
+.nav-pills .nav-link {
+  background-color: #ccc;
+  color: black;
+}
+
+.phaseTitle {
+  padding: 20px 0 40px 0;
+  font-weight: bold;
+}
+
+.nav-pills {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) calc(50% - 1px),
+    rgba(192, 192, 192, 1) calc(50%),
+    rgba(0, 0, 0, 0) calc(50% + 1px)
+  );
+  background-position: 0 -50px;
+}
+
+.nav-pills li {
+  width: 16%;
+  margin: 0;
+  text-align: center;
+}
+
+#pills-tab {
+  padding: 0;
+}
+
+.nav-item p {
+  margin: 0;
+}
+
+.caseStudiesTitle {
+  font-size: 40px;
+  color: black;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.caseStudies {
+  background-color: rgb(245, 185, 56);
+  margin: 0 auto;
+}
+
+.text-padding {
+  margin: 45px;
+}
+
+.card-img-top {
+  width: 40%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  margin: 0 auto;
+  display: block;
+}
+
+.card {
+  border: 0;
+  background-color: rgb(245, 185, 56);
+}
+
+.mockUpsPadding {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(134, 63, 161);
+}
+
+.card.col-6 {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.card-text {
+  font-size: 16px;
+  padding: 20px 0;
+}
+.btn-primary {
+  border: 0;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 175px;
+  background-color: rgb(134, 63, 161);
+  border-radius: 4px;
+  margin-bottom: 50px;
+}
+
+.textHighlight {
+  font-weight: bolder;
+  padding: 20px 0;
+}
+
+.buttonViewMore:hover {
+  background-color: rgb(134, 63, 161);
+  box-shadow: 0px 0px 0px 2px white;
+}
+
+.purpleFooter {
+  padding: 15px 0;
+}
+
+.hovertopicCircleImage {
+  transform: rotate(-20deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .heroContainerImage {
+    width: 100%;
+    margin: 25px 0;
+    padding: 0;
+  }
+
+  .nav-pills {
+    background-position: 0 -70px;
+  }
+  .paddingMobile {
+    padding: 0 30px;
+  }
+}
