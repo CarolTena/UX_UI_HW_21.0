@@ -278,7 +278,7 @@ header {
   text-align: center;
 }
 
-.project1Btn {
+.project1Btn, .projectBtn a{
   border: 0;
   color: white;
   font-weight: bolder;
@@ -286,7 +286,6 @@ header {
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  width: 175px;
   background-color: rgb(134, 63, 161);
   border-radius: 4px;
 }
@@ -476,12 +475,17 @@ content h1 {
     display: flex;
     flex-direction: column;
     padding: 25px 45px;
+    text-align: center;
   }
 
   .aboutMeImage {
-    width: 120%;
+    width: 100%;
     padding: 0;
     margin: 40px 0 0 0;
+  }
+
+  .aboutMeImage img{
+    width: 100%;
   }
 
   .aboutMeText {
@@ -491,6 +495,7 @@ content h1 {
 
   .aboutMe {
     flex-direction: column-reverse;
+    align-items: center;
   }
 
   .aboutMe h2 {
@@ -540,6 +545,10 @@ content h1 {
 
   .myWorkImages {
     margin: 0px;
+  }
+
+  .myWorkImages img{
+    width: 100%;
   }
 
   .project1Btn {

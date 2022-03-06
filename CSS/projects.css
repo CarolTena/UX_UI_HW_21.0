@@ -192,4 +192,16 @@ body {
   .paddingMobile {
     padding: 0 30px;
   }
+
+  .card-img-top {
+    width: 60%;
+  }
+
+  .card {
+    padding: 0 30px;
+  }
+
+  .quotesText {
+    padding: 0 40px
+  }
 }
