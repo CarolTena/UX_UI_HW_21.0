@@ -204,4 +204,8 @@ body {
   .quotesText {
     padding: 0 40px
   }
+
+  .topicCircleImage{
+    padding: 0;
+  }
 }

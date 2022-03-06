@@ -549,6 +549,7 @@ content h1 {
 
   .myWorkImages img{
     width: 100%;
+    padding-top: 20px;
   }
 
   .project1Btn {
